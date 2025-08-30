@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home • AlumniManage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">AlumniManage<span class="plus">+</span></a>
+      <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+  <main class="container">
+<section class="hero-section">
+  <div class="hero-left">
+    <h1 class="animate-fade">Reconnect. Rediscover. Reunite.</h1>
+    <p class="lead animate-fade" style="animation-delay:.15s">Join your alumni network for events, mentorship, and career growth.</p>
+    <div class="hero-cta animate-fade" style="animation-delay:.3s">
+      <a class="btn primary" href="events.html">View Events</a>
+      <a class="btn outline" href="#" data-open-modal="#joinModal">Join Network</a>
+    </div>
+    <div class="icons-row animate-fade" style="animation-delay:.45s">
+      <div class="icon-card"><img src="assets/icons/icon-mentor.svg" alt="Mentor"/><h4>Mentorship</h4><p class="muted">One-on-one guidance</p></div>
+      <div class="icon-card"><img src="assets/icons/icon-events.svg" alt="Events"/><h4>Events</h4><p class="muted">Meetups & summits</p></div>
+      <div class="icon-card"><img src="assets/icons/icon-community.svg" alt="Community"/><h4>Community</h4><p class="muted">Local chapters</p></div>
+    </div>
+  </div>
+  <div class="hero-right animate-fade" style="animation-delay:.6s"><img src="AM1.jpg" alt="Hero banner"></div>
+</section>
+
+<section class="stories section">
+  <h2>Success stories</h2>
+  <p class="muted">Real alumni who leveraged the network to grow their careers.</p>
+  <div class="story-grid">
+    <article class="story-card animate-fade" style="animation-delay:.1s"><img src="p1.jpg" alt="Priya"><h3>Priya R — Founder</h3><p class="muted">Founded HealthTech after mentorship and seed support.</p></article>
+    <article class="story-card animate-fade" style="animation-delay:.2s"><img src="p2.jpeg" alt="Ravi"><h3>Ravi K — Product Lead</h3><p class="muted">Hired through our career fair; now mentoring students.</p></article>
+    <article class="story-card animate-fade" style="animation-delay:.3s"><img src="p3.jpg" alt="Sahana"><h3>Sahana M — UX Designer</h3><p class="muted">Runs workshops and helps junior designers enter the industry.</p></article>
+  </div>
+</section>
+
+<section class="cta section">
+  <div class="cta-card animate-fade">
+    <h3>Host an event for your batch</h3>
+    <p class="muted">We help with logistics, promotion, and ticketing — reach out to the events team.</p>
+    <a class="btn primary" href="contact.html">Get in touch</a>
+  </div>
+</section>
+
+<!-- Join Modal -->
+<div class="modal" id="joinModal" aria-hidden="true">
+  <div class="modal-backdrop" data-modal-close></div>
+  <div class="modal-card">
+    <button class="modal-close" data-modal-close>&times;</button>
+    <h3>Join AlumniManage</h3>
+    <form id="joinForm">
+      <label>Name<br><input name="name" required></label>
+      <label>Email<br><input name="email" type="email" required></label>
+      <label>Year<br><input name="year" type="number" min="1950" max="2100" required></label>
+      <button class="btn primary" type="submit">Join</button>
+    </form>
+  </div>
+</div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="col">
+        <h4>AlumniManage</h4>
+        <p class="muted">Connecting alumni to opportunity and community.</p>
+      </div>
+      <div class="col">
+        <h4>Resources</h4>
+        <ul class="foot-links">
+          <li><a href="assets/docs/Alumni_Brochure.pdf" download>Brochure (PDF)</a></li>
+          <li><a href="assets/docs/Events_Newsletter.pdf" download>Events Newsletter (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Follow</h4>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+          <a href="#" aria-label="Twitter" class="social">Twitter</a>
+          <a href="mailto:hello@alumnimanage.example" class="social">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 AlumniManage. All rights reserved.</div>
+  </footer>
+  <button id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>

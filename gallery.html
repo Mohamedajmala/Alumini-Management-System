@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery • AlumniManage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">AlumniManage<span class="plus">+</span></a>
+      <nav class="nav" id="navMenu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+  <main class="container">
+<section class="section page-hero"><h1>Gallery</h1><p class="lead">Moments from alumni events.</p></section>
+<section class="section gallery-grid">
+  <ul class="gallery-list">
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-1.jpg"><img src="assets/images/gallery-1.jpg" alt="Gallery 1"><span class="caption">Image 1</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-2.jpg"><img src="assets/images/gallery-2.jpg" alt="Gallery 2"><span class="caption">Image 2</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-3.jpg"><img src="assets/images/gallery-3.jpg" alt="Gallery 3"><span class="caption">Image 3</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-4.jpg"><img src="assets/images/gallery-4.jpg" alt="Gallery 4"><span class="caption">Image 4</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-5.jpg"><img src="assets/images/gallery-5.jpg" alt="Gallery 5"><span class="caption">Image 5</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-6.jpg"><img src="assets/images/gallery-6.jpg" alt="Gallery 6"><span class="caption">Image 6</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-7.jpg"><img src="assets/images/gallery-7.jpg" alt="Gallery 7"><span class="caption">Image 7</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-8.jpg"><img src="assets/images/gallery-8.jpg" alt="Gallery 8"><span class="caption">Image 8</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-9.jpg"><img src="assets/images/gallery-9.jpg" alt="Gallery 9"><span class="caption">Image 9</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-10.jpg"><img src="assets/images/gallery-10.jpg" alt="Gallery 10"><span class="caption">Image 10</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-11.jpg"><img src="assets/images/gallery-11.jpg" alt="Gallery 11"><span class="caption">Image 11</span></button></li>
+      <li class="gallery-item"><button class="gallery-btn" data-src="assets/images/gallery-12.jpg"><img src="assets/images/gallery-12.jpg" alt="Gallery 12"><span class="caption">Image 12</span></button></li>
+  </ul>
+
+  <div class="modal" id="lightbox" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close></div>
+    <div class="modal-card lightbox-card">
+      <button class="modal-close" data-modal-close>&times;</button>
+      <img id="AM1" src="" alt="Large image">
+      <p id="lightbox-caption" class="muted"></p>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="col">
+        <h4>AlumniManage</h4>
+        <p class="muted">Connecting alumni to opportunity and community.</p>
+      </div>
+      <div class="col">
+        <h4>Resources</h4>
+        <ul class="foot-links">
+          <li><a href="assets/docs/Alumni_Brochure.pdf" download>Brochure (PDF)</a></li>
+          <li><a href="assets/docs/Events_Newsletter.pdf" download>Events Newsletter (PDF)</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Follow</h4>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn" class="social">LinkedIn</a>
+          <a href="#" aria-label="Twitter" class="social">Twitter</a>
+          <a href="mailto:hello@alumnimanage.example" class="social">Email</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 AlumniManage. All rights reserved.</div>
+  </footer>
+  <button id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>
